@@ -1,0 +1,24 @@
+{
+  "name": "foo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": ". ./dev.env && gulp dev",
+    "test": ". ./test.env && mocha --recursive"
+  },
+  "devDependencies": {
+    "aria-query": "^0.7.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "7.0.1",
+    "eslint-plugin-script-tags": "trusktr/eslint-plugin-script-tags#patch-1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-if": "^2.0.2",
+    "merge-stream": "^1.0.1",
+    "prettier": "^1.5.3"
+  }
+}

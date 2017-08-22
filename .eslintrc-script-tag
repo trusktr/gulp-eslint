@@ -1,0 +1,9 @@
+{
+  "extends": "./.eslintrc",
+  "plugins": [
+    "script-tags",
+  ],
+  "rules": {
+    "eol-last": 0,
+  },
+}

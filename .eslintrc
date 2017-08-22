@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+  ],
+  "plugins": [
+    "prettier",
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+  },
+  "settings": {
+    "import/resolver": "node",
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+      "printWidth": 80,
+      "tabWidth": 2,
+      "useTabs": false,
+      "semi": false,
+      "singleQuote": true,
+      "trailingComma": "all",
+      "bracketSpacing": true,
+      "jsxBracketSameLine": false,
+    }],
+    "arrow-parens": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+      },
+    ],
+    "jsx-a11y/href-no-hash": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never",
+      },
+    ],
+  },
+}
